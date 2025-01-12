@@ -1,0 +1,677 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+
+.hero-section {
+    background: url('resolution\ background.avif') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+.homepage-buttons{
+    filter: invert(1);
+ width: 30px;
+ height: 30px;
+}
+.overlay {
+    background: rgba(109, 107, 107, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:40%;
+    align-items: center;
+}
+
+.header-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    padding-left: 15px;
+    height: 100px;
+    margin-right: 200px;
+}
+
+.header-actions a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.hero-text h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 600px;
+    margin: auto;
+}
+
+
+/* resolution-section code start here  */
+
+.resolution-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1ebeb; 
+    padding: 50px 20px;
+  }
+  
+  .resolution-container {
+    display: flex;
+    max-width: 1200px;
+    gap: 40px; 
+  }
+  
+  .resolution-image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; 
+  }
+  
+  .resolution-content {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .pre-heading {
+    font-size: 14px;
+    color: #a0a0a0; 
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .resolution-content h2 {
+    font-size: 32px;
+    color: #333; 
+    margin: 0 0 20px;
+    line-height: 1.4;
+  }
+  
+  .resolution-content p {
+    font-size: 16px;
+    color: #666; 
+    margin: 0 0 20px;
+  }
+  
+  .resolution-link {
+    font-size: 16px;
+    color: #A51C30; 
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .resolution-link:hover {
+    text-decoration: underline;
+  }
+  .section2-img{
+    width: 50%;
+  }
+  .resolution-image{
+    width: 50%;
+    height: 70%;
+  }
+  
+  /* motivation-section code starts here  */
+
+  .motivation-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .quote-container {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .quote-container blockquote {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #222;
+    margin: 0 0 20px;
+    line-height: 1.5;
+    position: relative;
+  }
+  
+  .quote-container blockquote:before {
+    content: "“";
+    font-size: 3rem;
+    color: #d92b27;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+  }
+  
+  .quote-container blockquote:after {
+    content: "”";
+    font-size: 3rem;
+    color: #d92b27;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+  }
+  
+  .quote-container .author {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .audio-placeholder {
+    display: block;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .image-container {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-image {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  /* cards section code starts here  */
+
+  .card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .card-content {
+    padding: 16px;
+  }
+  
+  .card-tag {
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: 8px;
+  }
+  
+  .card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin: 0 0 8px;
+  }
+  
+  .card-description {
+    font-size: 0.95em;
+    color: #555;
+    margin: 0 0 16px;
+  }
+  
+  .card-footer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .status-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #28a745; 
+  }
+  
+  .status-text {
+    font-size: 0.9em;
+    color: #333;
+  }
+  .cards-container{
+    padding-top: 30px;
+    display: flex;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+  }
+
+  /* mental health section code start from here  */
+
+  .mental-health-section {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .content-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .text-content {
+    flex: 1 1 45%;
+    padding: 20px;
+  }
+  
+  .text-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #222;
+  }
+  
+  .text-content p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .text-content .learn-more-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .exercise-container {
+    flex: 1 1 45%;
+    padding: 20px;
+  }
+  
+  .exercise-container h2 {
+    font-size: 1.8em;
+    color: #222;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+  
+  .exercise-steps {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .exercise-steps li {
+    margin-bottom: 15px;
+  }
+  
+  .exercise-steps li strong {
+    color: #a51c30; 
+    font-size: 1.2em;
+  }
+  
+  .image-container {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .image-container img {
+    height: 50vh;
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  /* card container 2 section starts here  */
+  
+  .book-card {
+    position: relative;
+    width: 350px;
+    height: 500px;
+    background-image: url('power-broker.jpg'); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    color: black;
+  }
+
+  .book-card {
+    position: relative;
+    width: 350px;
+    height: 500px;
+    background-image: url('educated.jpg'); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    color: black;
+  }
+  
+  .book-card-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  }
+  
+  .book-title {
+    color: #222;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .book-subtitle {
+    color: #222;
+    font-size: 16px;
+    margin: 5px 0 15px;
+  }
+  
+  .book-recommendation {
+    color: #222;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .book-explore-button {
+    display: inline-block;
+    padding: 10px 15px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .book-explore-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #222;
+  }
+  
+  .card-container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 40px;  
+  }
+
+  .namemain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+  }  
+  .namemain .left{
+    width: 40%;
+    height: 29vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .namemain .right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 29vh;
+  }
+
+  /* paralell cards code start here  */
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: px;
+    background-color: #fff;
+    border-bottom: 50px solid #e0e0e0;
+}
+
+.text-section {
+    max-width: 60%;
+}
+
+.text-section h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+.text-section p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.text-section .description {
+    font-size: 14px;
+    color: #999;
+}
+
+.image-section img {
+    max-width: 60px;
+    height: auto;
+    display: block;
+}
+
+/* last section code starts here  */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.related-topics-section {
+  background-image: url('Harvard-University-Campus\ BACKGROUND.jpg'); /* Replace with your actual image path */
+  background-size: cover;
+  background-position: center;
+  padding: 50px 20px;
+  text-align: left;
+  color: #000;
+  position: relative;
+}
+
+.related-topics-section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7); /* Overlay effect */
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.sub-heading {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.main-heading {
+  font-size: 36px;
+  margin: 0;
+  color: #000;
+  font-weight: bold;
+}
+
+.topics-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.topics-list li {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #333;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  cursor: pointer;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.topics-list li:hover {
+  color: #000;
+  border-color: #000;
+}
+
+/* here is the code for the footer  */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto 40px auto;
+  text-align: left;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.footer-column h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column li {
+  margin-bottom: 10px;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: #bbb;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer-column a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.footer-branding {
+  text-align: left;
+  flex: 1;
+}
+
+.footer-branding img {
+  max-width: 150px;
+  margin-bottom: 10px;
+}
+
+.footer-branding p {
+  font-size: 15px;
+  color: #bbb;
+  margin: 0;
+}
+
+.social-icons {
+  flex: 1;
+  text-align: right;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  display: inline-block;
+  transition: opacity 0.3s ease;
+}
+
+.social-icons img {
+  width: 20px;
+  height: 20px;
+}
+
+.social-icons a:hover {
+  opacity: 0.8;
+}
